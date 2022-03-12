@@ -3,6 +3,8 @@
 padding: 0px;
 }
 body{background: #35394b url(imagens/Wallpaperroxo.png) center center no-repeat fixed;background-size: cover;}
+
+header{min-height: 80px;background-image:linear-gradient(to right, #a9b4ee, #c5ceff00) ;}
 main{max-width: 480px;
     margin: auto;
     border-right: 20px solid #B33951;
@@ -16,7 +18,7 @@ main{max-width: 480px;
 h1{color:#91C7B1;
     border-bottom: 10px solid #FFAD69;
     text-shadow: 1px 1px 2px #00000021;
-    max-width: 480px;
+    max-width: 470px;
     
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-transform: uppercase;
@@ -36,10 +38,23 @@ p{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: justify;
     padding: 10px;}
 
+input{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 20px;background-color:#303342;
+    font-size: 20px;
+    padding-left: 10px;
+    border: 3px solid #91C7B1;
+    color: white;}
+    
 div{background-color: #FFAD69;
-    color: #232C33;
+    color: #1e2131;
     border-radius: 10px 0px;
     font-style: italic;}
 
 img{margin: auto;
-    width: 100%;}
+    width: 100%;
+    border-radius: 10px 0px;
+    outline: 5px solid #FFAD69;
+}
