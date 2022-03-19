@@ -1,0 +1,27 @@
+*{padding: 0px;
+margin: 0px;
+
+}
+
+.container{height: 500px;
+    position: relative;
+    padding: 10px;
+    background: darkorange url(imagens/target001.png) no-repeat center center;
+    background-size: 100% 100%;
+    border-radius: 5px;
+    margin: 10px;
+
+}
+
+.conteudo{height: 250px;
+    position: absolute;
+    width: 250px;
+    background: lightskyblue url(imagens/target001.png) no-repeat center center;
+    background-size: 100% 100%;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);overflow:hidden;
+
+}
+
+.conteudo > p {text-align: center;font-size: 30px;}
