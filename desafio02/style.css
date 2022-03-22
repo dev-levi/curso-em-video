@@ -14,45 +14,55 @@ margin: 0px;
 
 }
 
-header{background-color: black;min-width: 180px;
-
-}
-
-a{padding-bottom: 8vh;font-family: Verdana, Geneva, Tahoma, sans-serif;
-font-size: 1.2em;
-
-}
-
-h1,a{color: white;
-    text-decoration: none;
-    text-transform:capitalize;
-    display: block;
+header{
+    background-color: black;
+    min-width: 180px;
     text-align: center;
-}
-
-h1{font-family:var(--header-fonte);
-    padding-top:10vh;
-    font-size: 3.5em;
-    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
 
 }
 
-main{min-height: 100vh;
+header > p {padding-bottom: 50px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+header a{
+    padding-bottom: 8vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+    text-transform:capitalize;
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+
+}
+
+h1{
+    font-family:var(--header-fonte);
+    padding-top:50px;
+    font-size: 8vw;
+    font-variant: small-caps;
+
+}
+
+main{
+    min-height: 100vh;
     background-color: darkgray;
-    max-width: 1800px;}
-
-section{padding-top: 10vh;
-padding-bottom: 10vh;
-padding-left: 20px;
+    max-width: 1800px;
 
 }
 
-section.texto{background-color: white;}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+
+}
+
+section.texto{
+    background-color: white;}
 
 
 section > p{font-family:var(--paragrafo-fonte);
-    
-    max-width: 560px;
     font-size: 3vw;
     text-align: left;
     line-height:2em ;
@@ -61,25 +71,35 @@ section > p{font-family:var(--paragrafo-fonte);
 
 }
 
-section.imagem{box-shadow: inset 6px 7px 10px 0px rgba(0, 0, 0, 0.295);position: relative;
+section.imagem{
+    box-shadow: inset 6px 7px 10px 0px rgba(0, 0, 0, 0.295);position: relative;
 
 }
 
-section.imagem > p {color: white;
+section.imagem > p {
+    color: white;
+    display: inline-block;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 5px 10px;
     text-shadow: 3px 2px 0px rgba(0, 0, 0, 0.459);
 
 }
 
-section#img01{background: black url(imagens/background001.jpg)no-repeat center right fixed;
+section#img01{
+    background: black url(imagens/background001.jpg)no-repeat center right fixed;
     background-size: cover;
 
 }
 
-section#img02{background: black url(imagens/background002.jpg)no-repeat center right fixed;
+section#img02{
+    background: black url(imagens/background002.jpg)no-repeat center right fixed;
     background-size: cover;
 
 }
 
-footer{background-color: black;color: white;font-size: 1.4em;font-family: Arial, Helvetica, sans-serif;text-align: center;padding: 10px;}
+footer{background-color: black;
+    color: white;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 10px;}
