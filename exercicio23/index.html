@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 0px;
+        margin: 0px;
+        
+    }
+    body{
+    background-color: gray;
+    }
+
+    main{
+    text-align: center;
+    margin: auto;
+    width: 800px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px
+    }
+    table{
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    border-collapse: collapse;
+    }
+
+    td{
+
+    border: 1px solid black;
+    padding: 10px;
+    vertical-align: bottom;
+    text-align: left;
+    color: white;
+    text-shadow: 1px 1px 1px #00000079;
+    }
+    
+
+    #l1 {
+        background-color:aqua
+
+    }
+    .fila1:hover{
+        background-color: #004242;
+    }
+
+    #l2{
+        background-color: aquamarine;
+    }
+    .fila2:hover{
+        background-color: #25463b;
+    }
+
+    #l3{
+        background-color: #8e8efd;
+    }
+    .fila3:hover{
+        background-color: #212136;
+    }
+    #l4{
+        background-color: #5a78fc;
+    }
+    .fila4:hover{
+        background-color: #171e3d;
+    }
+    .fila1, .fila2, .fila3, .fila4:hover{transition: 0.3s;}
+    </style>
+</head>
+<body>
+    <main>
+        <h1>minha primeira tabela</h1>
+        <table>
+            
+
+            <tr class="linha" id="l1">
+                
+                <td class="fila1">A1</td>
+                <td class="fila1">B1</td>
+                <td class="fila1">C1</td>
+            </tr>
+
+
+            <tr class="linha" id="l2">
+                <td class="fila2">A2</td>
+                <td class="fila2">B2</td>
+                <td class="fila2">C2</td>
+            </tr>
+
+
+            <tr class="linha" id="l3">
+                <td class="fila3">A3</td>
+                <td class="fila3">B3</td>
+                <td class="fila3">C3</td>
+            </tr>
+
+
+            <tr class="linha" id="l4">
+                <td class="fila4">A4</td>
+                <td class="fila4">B4</td>
+                <td class="fila4">C4</td>
+            </tr>
+        </table>
+    </main>
+
+</body>
+</html>
