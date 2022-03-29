@@ -8,11 +8,17 @@
     <style>
         *{font-family: Verdana, Geneva, Tahoma, sans-serif;padding: 0px;margin: 0px;}
         body{background-color: #3d3d3d;}
-        main{max-width:800px;background-color: white;border-radius: 5px;padding: 10px;text-align: center;
-        margin: auto;margin-top: 20vh;}
+        main{width: 100%;
+            max-width:800px;background-color: white;border-radius: 5px;padding: 10px;text-align: center;
+            margin: auto;margin-top: 20vh;}
         table{max-width: 800px;
             border-collapse: collapse;
             margin: auto;}
+            caption{padding: 10px;font-weight: bold;text-transform: capitalize;background-color: #3d3d3d;color: white;
+            }
+        tbody > tr:nth-child(odd){
+            background-color: lightgray;
+        }
         td,th{border: 1px solid black;padding: 5px;}
         th{background-color: gray;color: white;}
         td{text-transform: capitalize;}
@@ -22,11 +28,12 @@
     <main>
         <h1>tabela grande HTML</h1>
         <table>
+        <caption>População mundial total</caption>
             <thead>
                 <tr>
-                    <th>Posição</th>
-                    <th>Pais</th>
-                    <th>Estimativa da ONU</th>
+                    <th scope="col">Posição</th>
+                    <th scope="col">Pais</th>
+                    <th scope="col">Estimativa da ONU</th>
                 </tr>
             </thead>
 
@@ -86,7 +93,7 @@
             <tfoot>
                 <tr>
                     <th></th>
-                    <th>População mundial</th>
+                    <th scope="row">População mundial</th>
                     <td><strong>7.936.580.625</strong></td>
                 </tr>
             </tfoot>
